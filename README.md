@@ -142,6 +142,18 @@ This project aims to predict the total score of an IPL match using Deep Learning
 ## Dataset :-
 The dataset used in this project is provided as a CSV file named "ipl_data.csv". It contains information about IPL matches, including batting and bowling details, runs, wickets, overs, players, venue, and total score.
 
+## The following tools and technologies were used in this project:
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow
+- Keras
+- Jupyter Notebook
+
 ## Preprocessing :-
  1. Loading the Dataset: Read the dataset using pandas.
  2. Exploratory Data Analysis: Analyze the number of matches played at different venues and identify the top 10 batsmen and bowlers based on runs and wickets.
