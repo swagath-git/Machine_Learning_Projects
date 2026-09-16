@@ -155,12 +155,12 @@ The dataset used in this project is provided as a CSV file named "ipl_data.csv".
 - Jupyter Notebook
 
 ## Preprocessing :-
- 1. Loading the Dataset: Read the dataset using pandas.
- 2. Exploratory Data Analysis: Analyze the number of matches played at different venues and identify the top 10 batsmen and bowlers based on runs and wickets.
- 3. Label Encoding: Convert categorical features such as batting team, bowling team, venue, batsman, and bowler into numerical values using LabelEncoder
- 4. Feature Selection: Remove the date and match ID columns and analyze the correlation between the features using a correlation heatmap.
- 5. Feature Scaling: Scale the selected features using MinMaxScaler.
- 6. Splitting the Data: Split the preprocessed data into training and testing sets with 70% training data and 30% testing data.
+ - Loading the Dataset: Read the dataset using pandas.
+ - Exploratory Data Analysis: Analyze the number of matches played at different venues and identify the top 10 batsmen and bowlers based on runs and wickets.
+ -  Label Encoding: Convert categorical features such as batting team, bowling team, venue, batsman, and bowler into numerical values using LabelEncoder
+ - Feature Selection: Remove the date and match ID columns and analyze the correlation between the features using a correlation heatmap.
+ - Feature Scaling: Scale the selected features using MinMaxScaler.
+ - Splitting the Data: Split the preprocessed data into training and testing sets with 70% training data and 30% testing data.
 
 ## Model Selection :-
 A Neural Network regression model is built using TensorFlow and Keras. The model consists of two hidden Dense layers with 512 and 216 neurons using ReLU activation, followed by an output layer with one neuron for predicting the total score. The model is compiled using the Adam optimizer and Huber Loss function. The model is trained for 10 epochs with a batch size of 50.
