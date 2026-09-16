@@ -135,6 +135,55 @@ The trained models achieve certain accuracy scores on both training and testing 
 
 ---
 
+# 3. IPL Score Prediction using Deep Learning
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#3-ipl-score-prediction-using-deep-learning)
+
+# Overview :-
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#overview--2)
+
+This project aims to predict the total score of an IPL match using Deep Learning techniques. The dataset contains various features such as batting team, bowling team, venue, batsman, bowler, runs, wickets, overs, striker, and non-striker, which are used to train the model.
+
+# Dataset :-
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#dataset---2)
+
+The dataset used in this project is provided as a CSV file named "ipl_data.csv". It contains information about IPL matches, including batting and bowling details, runs, wickets, overs, players, venue, and total score.
+
+# Preprocessing :-
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#preprocessing--1)
+
+Loading the Dataset: Read the dataset using pandas.
+
+Exploratory Data Analysis: Analyze the number of matches played at different venues and identify the top 10 batsmen and bowlers based on runs and wickets.
+
+Label Encoding: Convert categorical features such as batting team, bowling team, venue, batsman, and bowler into numerical values using LabelEncoder.
+
+Feature Selection: Remove the date and match ID columns and analyze the correlation between the features using a correlation heatmap.
+
+Feature Scaling: Scale the selected features using MinMaxScaler.
+
+Splitting the Data: Split the preprocessed data into training and testing sets with 70% training data and 30% testing data.
+
+# Model Selection :-
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#model-selection--1)
+
+A Neural Network regression model is built using TensorFlow and Keras. The model consists of two hidden Dense layers with 512 and 216 neurons using ReLU activation, followed by an output layer with one neuron for predicting the total score.
+
+The model is compiled using the Adam optimizer and Huber Loss function.
+
+The model is trained for 10 epochs with a batch size of 50.
+
+# Results :-
+
+[svg](https://github.com/swagath-git/Machine_Learning_Projects#results---2)
+
+The trained model is used to predict the total IPL score on the test dataset. Model performance is evaluated using Mean Absolute Error (MAE). Training and validation loss are also plotted to observe the model's learning performance.
+
+
 # Note :-
 This projects was developed primarily to improve my practical experience and build strong hands-on expertise in Machine Learning tools and workflows.
 
