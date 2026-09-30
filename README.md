@@ -1,4 +1,4 @@
-# Elastic Net Regression for Insurance Cost Prediction
+# 1. Elastic Net Regression for Insurance Cost Prediction
 
 ## Project Overview
 This project focuses on predicting insurance costs using **Elastic Net Regression**, a supervised machine learning regression algorithm.
@@ -47,7 +47,7 @@ Through this project, I practiced:
 
 ---
 
-# 1. Fuel Economy Analysis
+# 2. Fuel Economy Analysis
 Overview This project focuses on analyzing fuel economy data using machine learning techniques. The dataset contains various features related to vehicle specifications, fuel types, and fuel costs.
 
 ## Dataset :-
@@ -71,7 +71,7 @@ All Models Performed well outperformed the other models with the highest testing
 
 ---
 
-# Gradient Boosting Classification
+# 3. Gradient Boosting Classification
 
 ## Project Overview
 This project uses the **Mushroom dataset** to build a classification model using the **Gradient Boosting Classifier**.
@@ -117,7 +117,7 @@ Through this project, I practiced:
 
 ---
 
-# 2. Titanic Survival Prediction
+# 4. Titanic Survival Prediction
 ## Overview :-
 This project aims to predict the survival of passengers aboard the Titanic using machine learning techniques. The dataset contains various features such as age, gender, ticket class, and cabin, which are used to train the models.
 
@@ -135,7 +135,7 @@ The trained models achieve certain accuracy scores on both training and testing 
 
 ---
 
-# 3. IPL Score Prediction using Deep Learning
+# 5. IPL Score Prediction using Deep Learning
 ## Overview :-
 This project aims to predict the total score of an IPL match using Deep Learning techniques. The dataset contains various features such as batting team, bowling team, venue, batsman, bowler, runs, wickets, overs, striker, and non-striker, which are used to train the model.
 
@@ -169,7 +169,7 @@ A Neural Network regression model is built using TensorFlow and Keras. The model
 The trained model is used to predict the total IPL score on the test dataset. Model performance is evaluated using Mean Absolute Error (MAE). Training and validation loss are also plotted to observe the model's learning performance.
 
 
-# 3. Stock Price Prediction using LSTM
+# 6. Stock Price Prediction using LSTM
 
 ## Overview :-
 This project aims to predict Apple (AAPL) stock prices using Deep Learning techniques. The project uses historical stock market data and an LSTM (Long Short-Term Memory) model to learn patterns in stock prices and generate predictions.
