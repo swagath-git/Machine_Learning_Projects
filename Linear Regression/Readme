@@ -1,0 +1,79 @@
+# Car Price Prediction using Machine Learning
+
+## Project Overview
+
+This project focuses on predicting the selling price of used cars based on details such as car name, company, manufacturing year, kilometers driven, and fuel type.
+The dataset contains real-world inconsistencies such as missing values, incorrect entries, text mixed with numerical values, and inconsistent formatting. The project covers data cleaning, preprocessing, feature encoding, and building a machine learning model for price prediction.
+
+## Dataset
+
+The original dataset contains **892 car records** with the following columns:
+
+* `name` - Name/model of the car
+* `company` - Car manufacturer
+* `year` - Manufacturing year
+* `Price` - Selling price of the car
+* `kms_driven` - Kilometers driven
+* `fuel_type` - Fuel type of the car
+
+After cleaning and removing invalid records, the dataset contains **815 records**.
+
+## 🧹 Data Cleaning
+
+The dataset required several preprocessing steps before applying machine learning:
+
+* Cleaned the car name and kept the first three parts of the name
+* Converted the `year` column into numeric values
+* Removed invalid year entries
+* Removed records where the price was listed as `"Ask For Price"`
+* Converted car prices from text format to integers
+* Cleaned the `kms_driven` column and converted it to numeric values
+* Removed invalid kilometer entries
+* Removed records with missing fuel type
+* Removed extremely high-price outliers above ₹60 lakh
+* Saved the cleaned dataset as `Cleaned_car.csv`
+
+## 🤖 Machine Learning
+
+This project uses **Linear Regression** to predict car prices.
+
+The categorical features were converted into numerical features using **One-Hot Encoding**.
+
+### Features Used
+
+* Car name
+* Company
+* Manufacturing year
+* Kilometers driven
+* Fuel type
+
+### Target Variable
+
+* `Price`
+
+The data was divided into training and testing sets using `train_test_split`.
+
+A Scikit-learn pipeline was created to combine:
+
+1. One-Hot Encoding
+2. Linear Regression
+
+This approach helps handle categorical variables while keeping the preprocessing and model training together in a single pipeline.
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Jupyter Notebook
+* Machine Learning
+* One-Hot Encoding
+* Linear Regression
+
+```
+
+## 🎯 Objective
+
+The main objective of this project is to understand how different car attributes can be used to build a machine learning model for predicting used-car prices.
+It also provided practical experience with handling messy real-world data and preparing categorical and numerical features for machine learning.
