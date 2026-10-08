@@ -24,6 +24,9 @@ The main objective is to understand historical stock price patterns and use time
 ---
 
 ## Dataset
+The **dataset** used in this project is **not included** in this repository **because** of GitHub file **size limitations**. It was obtained from the **kaggle**.
+
+The project notebook contains the complete data preprocessing, analysis, and model-building steps.
 The dataset contains historical stock market data with the following columns:
 
 - `date`
