@@ -5,6 +5,7 @@ This project aims to predict Apple (AAPL) stock prices using Deep Learning techn
 
 ## Dataset :-
 The dataset used in this project is provided as a CSV file named "stocks_5yr.csv". It contains historical stock market information including date, open price, close price, high price, low price, volume, and company name.
+
 **NOTE** : The dataset is too large and exceeds GitHub’s file size limit, so I couldn’t upload it.
 
 
